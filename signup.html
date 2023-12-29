@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Signup Form</title>
+  <!-- Include the Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Include the Font Awesome CDN for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-b from-indigo-400 to-purple-800 h-screen flex items-center justify-center">
+
+  <div class="bg-white p-8 rounded shadow-md max-w-md w-full">
+    <h2 class="text-2xl font-bold text-gray-800 text-center">Sign Up</h2>
+    <p class="text-center text-gray-400 text-sm mt-1 mb-6">Sign up to Clue Mediator</p>
+
+    <!-- Signup Form -->
+    <form>
+<div class="mb-4 flex items-center">
+  <i class="fas fa-user text-gray-500 mr-2"></i>
+  <input type="text" id="name" name="name" placeholder="Name" class="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300">
+</div>
+
+<div class="mb-4 flex items-center">
+  <i class="fas fa-envelope text-gray-500 mr-2"></i>
+  <input type="email" id="email" name="email" placeholder="Email Address" class="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300">
+</div>
+
+<div class="mb-4 flex items-center">
+  <i class="fas fa-mobile-alt text-gray-500 mr-2"></i>
+  <input type="tel" id="mobileNumber" name="mobileNumber" placeholder="Mobile Number" class="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300">
+</div>
+
+<div class="mb-4 flex items-center">
+  <i class="fas fa-user-circle text-gray-500 mr-2"></i>
+  <input type="text" id="username" name="username" placeholder="Username" class="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300">
+</div>
+
+<div class="mb-4 flex items-center">
+  <i class="fas fa-lock text-gray-500 mr-2"></i>
+  <input type="password" id="password" name="password" placeholder="Password" class="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300">
+</div>
+
+<div class="mb-4 flex items-center">
+  <i class="fas fa-lock text-gray-500 mr-2"></i>
+  <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" class="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300">
+</div>
+
+      <button type="submit" class="w-full p-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300">Sign Up</button>
+    </form>
+
+    <p class="mt-4 text-sm text-gray-600">Already have an account? <a href="#" class="text-blue-500">Log in</a></p>
+  </div>
+</body>
+</html>
